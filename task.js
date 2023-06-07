@@ -84,8 +84,8 @@ db.topics.aggregate([
             {
               $or: [
                 {
-                  tasksSubmittedOn: {$gte: new Date("30-oct-2020")},
-                  tasksSubmittedOn: {$lte: new Date("15-oct-2020")}
+                  tasksSubmitted: {$gte: new Date("30-oct-2020")},
+                  tasksSubmitted: {$lte: new Date("15-oct-2020")}
                 }
               ]
             }]
