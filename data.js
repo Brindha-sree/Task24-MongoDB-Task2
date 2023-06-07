@@ -5,7 +5,7 @@ admin> db.user.insertMany(
     id: 1,
     name: 'Sree',
     coursename: 'FSD',
-    tasksubmiited: '02-oct-2020',
+    taskssubmiited: '02-oct-2020',
     placement: 'infosys',
     status:"present"
   },
@@ -15,7 +15,7 @@ admin> db.user.insertMany(
     name: 'SreeHary',
     email: 'sreehary@gmail.com',
     coursename: 'FSD',
-    tasksubmiited: '02-oct-2020',
+    taskssubmiited: '02-oct-2020',
     placement: 'infosys',
     status:"present"
   },
